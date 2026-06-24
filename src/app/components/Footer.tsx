@@ -52,18 +52,21 @@ const socialLinks = [
     label: "LinkedIn",
     color: "#0a66c2",
   },
+
   {
     icon: Twitter,
     href: "https://twitter.com",
     label: "Twitter",
     color: "#1da1f2",
   },
+
   {
     icon: Instagram,
     href: "https://instagram.com",
     label: "Instagram",
     color: "#e1306c",
   },
+
   {
     icon: Mail,
     href: "mailto:aryankrbjunitp.com",
@@ -75,6 +78,7 @@ const socialLinks = [
 export default function Footer() {
   return (
     <footer
+    
       className="relative z-10"
       style={{
         background: "rgba(3,3,12,0.98)",
